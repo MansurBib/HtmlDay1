@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+    <h3>In oder to get in touch with us, please fill out the Contact form as thorough as possible</h3>
+    <form action="contact_page.php">
+        First Name: <br>
+        <input type="text" name="firstname" placeholder="Max"> <br>
+        <br>
+        Last Name: <br>
+        <input type="text" name="lastname" placeholder="Mustermann"> <br><br>
+
+        Birthday: <br>
+        <input type="date" name="Age" placeholder="18">
+        <br><br>
+        Location: <br>
+        <select name="Location">
+            <option value="Europe">Europe</option>
+            <option value="Asia">Asia</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option><br>
+        </select>
+        <br><br>
+
+        <h2>Title</h2>
+        <textarea name="message" cols="50" rows="2"></textarea>
+        <br><br>
+        <h2>Your Message to us:</h2>
+        <textarea name="message" cols="50" rows="10"></textarea><br>
+
+        <input type="button" value ="Submit" onclick="doSmth()">
+        <br>
+        <p>By clicking "Submit" you agree to accept the Terms and Conditions</p>
+
+
+    </form>
+
+</body>
+
+</html>
